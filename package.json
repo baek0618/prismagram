@@ -1,0 +1,23 @@
+{
+  "name": "prismagram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/baek0618/prismagram",
+  "author": "khbaek <khbaek@jlk-inspection.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/node": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babel-node": "^0.0.1-security",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
